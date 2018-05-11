@@ -11,6 +11,7 @@ if ($action == NULL) {
 }
 if ($action == 'signup'){
     include('../signupPage.html');
+    include('../signupStyle.css');
 }
 else if ($action == 'add_user') {
     $fname = filter_input(INPUT_POST, 'fname');
